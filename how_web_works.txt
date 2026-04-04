@@ -1,0 +1,2 @@
+when we write something like www.google.com in browser then here google.com is domain name. This domain name is converted into IP address by DNS(Domain Name System). Then, Now browser sends a request to that IP.This request uses something called:
+HTTP / HTTPS.Server responds(HTML,CSS,JS) and then finally Browser renders page.
