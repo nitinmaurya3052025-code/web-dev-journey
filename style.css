@@ -44,3 +44,22 @@ main {
   max-width: 800px;
   margin: auto;
 }
+img {
+  width: 100%;
+  max-width: 300px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+.project {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 10px;
+}
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
