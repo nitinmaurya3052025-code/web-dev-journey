@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.high {
+  background-color: #ffb3b3;
+}
+
+.medium {
+  background-color: #fff0b3;
+}
+
+.low {
+  background-color: #b3ffcc;
+}
