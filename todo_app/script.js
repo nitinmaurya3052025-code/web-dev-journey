@@ -39,6 +39,11 @@ function renderTask(task) {
 tasks.forEach(function (task) {
   renderTask(task);
 });
+taskInput.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    addBtn.click();
+  }
+});
 
 addBtn.addEventListener("click", function () {
   let taskText = taskInput.value;
